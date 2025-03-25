@@ -4,7 +4,7 @@
   "description": "Flips between prod and local URLs when the extension button is clicked.",
   "manifest_version": 3,
   "permissions": [
-    "tabs"
+    "activeTab"
   ],
   "background": {
     "service_worker": "background.js"
