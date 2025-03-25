@@ -10,6 +10,7 @@ chrome.action.onClicked.addListener((tab) => {
    const modifiedUrl = isLocalReccy
        ? currentUrl.replace(localReccyURL, prodReccyURL)
        : currentUrl.replace(prodReccyURL, localReccyURL);
+
    // Navigate the current tab to the new URL
    // chrome.tabs.update(tab.id, { url: modifiedUrl });
 
