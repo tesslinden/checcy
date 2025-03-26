@@ -1,7 +1,7 @@
 {
   "name": "checcy",
   "version": "1.0",
-  "description": "Flips between prod and local URLs when the extension button is clicked.",
+  "description": "Checcy makes it easy to check for differences between prod and local versions of a Reccy page.",
   "manifest_version": 3,
   "permissions": [
     "activeTab"
