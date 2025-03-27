@@ -1,5 +1,5 @@
 {
-  "name": "checcy",
+  "name": "Checcy",
   "version": "1.1",
   "description": "Checcy makes it easy to check for differences between prod and local versions of a Reccy page.",
   "manifest_version": 3,
