@@ -17,8 +17,8 @@ chrome.action.onClicked.addListener((tab) => {
    // Open modified URL in a new tab next to the current tab
    chrome.tabs.create({
        windowId: tab.windowId, // Ensure it's in the same window
-      url: modifiedUrl,
-      index: tab.index + 1  // Position next to the current tab
+       url: modifiedUrl,
+       index: tab.index + 1  // Position next to the current tab
   });
 
 });
