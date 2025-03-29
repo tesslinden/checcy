@@ -19,6 +19,6 @@ chrome.action.onClicked.addListener((tab) => {
        windowId: tab.windowId, // Ensure it's in the same window
        url: modifiedUrl,
        index: tab.index + 1  // Position next to the current tab
-  });
+   });
 
 });
